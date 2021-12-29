@@ -19,7 +19,7 @@ There's two parts to this. You need to get the app, then configure it to run on 
 
 ### Get the app
 
-Easiest option is to use the release on GitHub.
+Easiest option is to use the latest [release on GitHub](https://github.com/Giqles/check-your-temps/releases).
 
 #### Building from source
 If you want to rebuild from scratch you need to have `virtualenv`. Then install the dependencies using:
