@@ -3,7 +3,7 @@
 This project displays your CPU + GPU temperature using a Raspberry Pi Pico with an OLED screen. It was built for a one-off
 Christmas gift, don't expect too much in the way of stability or execution.
 
-![alt text](photo.jpg | width=150)
+<img src="photo.jpg" alt="A nice photo of the device in action" width="500">
 
 ## Display
 
