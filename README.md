@@ -27,15 +27,15 @@ Easiest option is to use the latest [release on GitHub](https://github.com/Giqle
 If you want to rebuild from scratch you need to have `virtualenv`. Then install the dependencies using:
 
 ```cmd
-python -m virtualenv venv
+python -m virtualenv .venv
 .venv/Scripts/activate.bat
 pip install -r requirements.txt
 ```
 
-Using another environment with the `pyinstaller` package available, you then need to run (from a Command Prompt run as Administrator):
+Then run:
 
 ```cmd
-pyinstaller --clean --paths .venv\Lib\site-packages --add-data OpenHardwareMonitorLib.dll;. check_your_temps.py
+pyinstaller --clean --add-data "OpenHardwareMonitorLib.dll;." check_your_temps.py
 ```
 
 You should find the package constructed under the `dist/` subdirectory. You'll also have a `build/` subdirectory.
